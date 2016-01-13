@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CanvasRenderer</title>
+        <style>
+            body{
+                font-family: 'Montserrat', sans-serif;
+                margin:0;
+                overflow:hidden;			
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="../Lib/three.js"></script>
+        <script type="text/javascript" src="../Lib/Projector.js"></script>
+        <script type="text/javascript" src="../Lib/CanvasRenderer.js"></script>
+        <script type="text/javascript" src="../Lib/stats.js"></script>
+
+    </head>
+    <body>
+        <div>
+        <a href="../" style="position:absolute;top: 2%;left:5%;color:#000000;text-align:center; text-transform:uppercase;text-decoration:none;">Home</a>
+        <a href="./webGLrender.html" style="position:absolute;top: 2%;left:10%;color:#000000;text-align:center; text-transform:uppercase;text-decoration:none;">webGL</a>
+        <a href="./scene.html" style="position:absolute;top: 2%;left:15%;color:#000000;text-align:center; text-transform:uppercase;text-decoration:none;">Scene</a>
+        <a href="./cityScene.html" style="position:absolute;top: 2%;left:20%;color:#000000;text-align:center; text-transform:uppercase;text-decoration:none;">City</a>
+        </div>
+        <p style="position:absolute;bottom: 5%;right:40%;width:20%;z-index:10;color:#000000;text-align:center; text-transform:uppercase;text-decoration:none;">CanvasRenderer Demonstration</p>
+        <div id = "webGL-container" style="z-index:-9;"></div>
+        <script type="text/javascript" src="../Js/canvasRender.js"></script>
+    </body>
+</html>
